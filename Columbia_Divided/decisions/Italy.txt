@@ -1,0 +1,24 @@
+political_decisions = {
+        claim_sicily = {
+        potential = {
+            tag = ITA
+	NOT = { has_country_flag = claimed_sicily }
+        }
+        allow = {
+           tag = ITA
+        }
+        effect = {
+             762 = { add_core = ITA } # Palermo
+
+                    # some early claims we can roll with for future italian lebensraum
+                   763 = { add_core = ITA }
+                    764 = { add_core = ITA }
+		set_country_flag = claimed_sicily
+                }
+            
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
+	

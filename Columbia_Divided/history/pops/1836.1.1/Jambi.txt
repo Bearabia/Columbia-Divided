@@ -1,0 +1,33 @@
+#Sibolga
+#hello
+#
+1409 = {
+	     soldiers = {
+		         culture = malay
+		         religion = sunni
+		         size = 9000
+				 } 
+} 
+1405 = {
+	     soldiers = {
+		         culture = malay
+		         religion = sunni
+		         size = 4200
+				 } 
+
+} 
+1407 = {
+	     soldiers = {
+		         culture = malay
+		         religion = sunni
+		         size = 4000
+				 } 
+
+} 
+1406 = {
+	     soldiers = {
+		         culture = malay
+		         religion = sunni
+		         size = 4100
+				 } 
+} 

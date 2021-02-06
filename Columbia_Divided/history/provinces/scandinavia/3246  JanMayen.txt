@@ -1,0 +1,10 @@
+owner = SCA
+controller = SCA
+add_core = SWE
+add_core = SCA
+add_core = NOR
+add_core = JAN
+add_core = KAM
+trade_goods = fish
+life_rating = 35
+terrain = arctic

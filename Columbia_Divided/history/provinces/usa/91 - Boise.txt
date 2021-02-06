@@ -1,0 +1,9 @@
+trade_goods = wool
+life_rating = 35
+owner = LOU
+controller = LOU
+add_core = LOU
+colonial = 2
+1861.1.1 = {
+	add_core = LOU
+}

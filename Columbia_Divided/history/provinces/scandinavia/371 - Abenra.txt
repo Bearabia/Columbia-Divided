@@ -1,0 +1,8 @@
+owner = KAM
+controller = KAM
+add_core = DEN
+add_core = SCH
+add_core = SCA
+add_core = KAM
+trade_goods = cattle
+life_rating = 35

@@ -1,0 +1,1 @@
+owner = BLUcontroller = BLUadd_core = BLUtrade_goods = fruitlife_rating = 25is_slave = yesnaval_base = 11861.1.1 = {	colony = 0	controller = CSA	owner = CSA	add_core = CSA}

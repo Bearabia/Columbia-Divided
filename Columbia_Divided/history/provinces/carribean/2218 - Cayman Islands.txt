@@ -1,0 +1,5 @@
+owner = BLU
+controller = BLU
+add_core = BLU
+trade_goods = fruit
+life_rating = 35

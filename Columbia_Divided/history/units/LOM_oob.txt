@@ -1,0 +1,46 @@
+#Relations
+
+SWI = { 
+	value = 5
+
+leader = {
+	name = "Luca"
+	date = 1834.1.1
+	type = land
+	personality = scared
+	background = aristocrat
+	prestige = 0.0
+}
+
+leader = {
+	name = "Enzo Romano"
+	date = 1836.1.1
+	type = land
+	personality = indifferent
+	background = war_college
+	prestige = 0.0
+}
+
+army = {
+	name = "Esercito di Lombarda"
+	location = 726
+	regiment = {
+		name= "1.Fanteria di Linea"
+		type = infantry
+		home = 724
+	}
+
+	regiment = {
+		name= "2.Fanteria di Linea"
+		type = infantry
+		home = 723
+	}
+
+	regiment = {
+		name= "3.Fanteria di Linea"
+		type = infantry
+		home = 725
+	}
+
+}
+

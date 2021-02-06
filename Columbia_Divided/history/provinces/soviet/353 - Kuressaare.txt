@@ -1,0 +1,8 @@
+owner = KAM
+controller = KAM
+add_core = KAM
+add_core = EST
+add_core = SCA
+add_core = UBD
+trade_goods = grain
+life_rating = 35

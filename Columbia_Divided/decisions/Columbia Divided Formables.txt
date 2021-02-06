@@ -1,0 +1,40 @@
+political_decisions = {
+	form_uk = {
+        potential = {
+            is_culture_group = british
+
+            NOT = {
+                exists = ENG
+            }
+        }
+
+        allow = {
+            is_greater_power = yes
+	    state_n_government = 1
+            war = no
+            ENG = {
+                all_core = {
+                    OR = {
+                        owned_by = THIS
+                        owner = {
+                            in_sphere = THIS
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            prestige = 20
+            change_tag = ENG
+            inherit = SCO
+                }
+            }
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    
+}
+	
+}

@@ -1,0 +1,17 @@
+owner = KAM
+controller = KAM
+add_core = KAM
+
+
+add_core = LAT
+
+add_core = UBD
+
+add_core = PLC
+
+add_core = SCA
+trade_goods = grain
+
+life_rating = 35
+
+1861.1.1 = { railroad = 2 }

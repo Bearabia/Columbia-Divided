@@ -1,0 +1,105 @@
+political_decisions = {
+
+form_columbia = {
+		potential = {
+			is_culture_group = columbian
+			NOT = { exists = COL }
+		}
+
+		allow = {
+			war = no
+			is_greater_power = yes
+            		nationalism_n_imperialism = 1
+           		BLU = {
+                	all_core = {
+                    	OR = {
+                        	owned_by = THIS
+                        	owner = {
+                           	 in_sphere = THIS
+                        }
+                    }
+                }
+	}
+		NNL = {
+                	all_core = {
+                    	OR = {
+                        	owned_by = THIS
+                        	owner = {
+                           	 in_sphere = THIS
+                        }
+                    }
+                }
+		QUE = {
+                	all_core = {
+                    	OR = {
+                        	owned_by = THIS
+                        	owner = {
+                           	 in_sphere = THIS
+                        }
+                    }
+                }
+	}
+		VIR = {
+                	all_core = {
+                    	OR = {
+                        	owned_by = THIS
+                        	owner = {
+                           	 in_sphere = THIS
+                        }
+                    }
+                }
+	}
+		TEX = {
+                	all_core = {
+                    	OR = {
+                        	owned_by = THIS
+                        	owner = {
+                           	 in_sphere = THIS
+                        }
+                    }
+                }
+	}
+		LOU = {
+                	all_core = {
+                    	OR = {
+                        	owned_by = THIS
+                        	owner = {
+                           	 in_sphere = THIS
+                        }
+                    }
+                }
+            }
+	}
+	}		
+		
+
+		effect = {
+			set_global_flag = columbia_formed
+			prestige = 100
+			all_core = { add_core = COL }
+			NNL = { all_core = { add_core = COL } }
+			QUE = { all_core = { add_core = COL } }
+			LOU = { all_core = { add_core = COL } }
+			BLU = { all_core = { add_core = COL } }
+			VIR = { all_core = { add_core = COL } }
+			TEX = { all_core = { add_core = COL } }
+			add_accepted_culture = nieuwwereld
+			add_accepted_culture = french_canadian
+			add_accepted_culture = dixie	
+			add_accepted_culture = texan
+			add_accepted_culture = louisianaise
+			add_accepted_culture = blumenlander
+			change_tag = COL
+			inherit = NNL
+			inherit = TEX
+			inherit = BLU
+			inherit = LOU
+			inherit = QUE
+			inherit = VIR
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+

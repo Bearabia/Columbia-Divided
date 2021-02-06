@@ -1,0 +1,47 @@
+leader = {
+	name = "Prince Aleksandar"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of the Principality of Serbia"
+	location = 783
+	regiment = {
+		name= "1st Serbian Infantry"
+		type = infantry
+		home = 794
+	}
+
+	regiment = {
+		name= "2nd Serbian Infantry"
+		type = infantry
+		home = 795
+	}
+
+	regiment = {
+		name= "3.2. Division"
+		type = infantry
+		home = 796
+	}
+
+	regiment = {
+		name= "4.2. Division"
+		type = artillery
+		home = 771
+	}
+
+	regiment = {
+		name= "4.2. Division"
+		type = artillery
+		home = 783
+	}
+
+	regiment = {
+		name= "4.2. Division"
+		type = artillery
+		home = 771
+	}
+

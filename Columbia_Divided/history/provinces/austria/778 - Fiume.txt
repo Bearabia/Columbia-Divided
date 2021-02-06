@@ -1,0 +1,8 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = AUS
+add_core = SER
+add_core = YUG
+trade_goods = fruit
+life_rating = 35

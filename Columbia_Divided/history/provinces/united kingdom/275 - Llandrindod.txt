@@ -1,0 +1,6 @@
+owner = EAG
+controller = EAG
+add_core = EAG
+trade_goods = sulphur
+life_rating = 35
+1861.1.1 = { railroad = 3 }

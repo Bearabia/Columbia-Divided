@@ -1,0 +1,26 @@
+political_decisions = {
+        claim_holstein = {
+        potential = {
+            tag = GER
+	NOT = { has_country_flag = claimed_holstein }
+        }
+        allow = {
+           tag = GER
+        }
+        effect = {
+             371 = { add_core = GER } 
+
+                    # some early claims we can roll with for future italian lebensraum
+                   370 = { add_core = GER }
+                    369 = { add_core = GER }
+			528 = { add_core = GER }
+                   529 = { add_core = GER }
+		set_country_flag = claimed_holstein
+                }
+            
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
+	

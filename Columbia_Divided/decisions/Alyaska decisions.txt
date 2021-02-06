@@ -1,0 +1,64 @@
+political_decisions = {
+
+form_kaskadya = {
+		potential = {
+			tag = ASK
+			NOT = { exists = KSK }
+		}
+
+		allow = {
+			war = no
+			is_secondary_power = yes
+            		state_n_government = 1
+           		owns = 81
+			owns = 82
+			owns = 83
+		}	
+		
+
+		effect = {
+			set_global_flag = kaskadya_formed
+			prestige = 20
+			change_tag = KSK
+			all_core = { add_core = KSK }
+			USA_81 = { add_core = KSK }
+			MEX_285 = { add_core = KSK }
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+claim_california = {
+		potential = {
+			tag = KSK
+			NOT = {has_global_flag = california_claimed}
+			
+		}
+
+		allow = {
+			war = no
+			is_greater_power = yes
+            	
+           		
+		}	
+		
+
+		effect = {
+			set_global_flag = california_claimed
+			add_core = 84
+			add_core = 85
+			add_core = 86
+			add_core = 87
+			add_core = 88
+			add_core = 89
+			add_core = 90
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	

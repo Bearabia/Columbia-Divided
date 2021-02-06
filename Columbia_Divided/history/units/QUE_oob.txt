@@ -1,0 +1,109 @@
+army = {
+	name = "Armee du Quebec"
+	location = 65
+	regiment = {
+		name= "1st Regiment of Infantry"
+		type = infantry
+		home = 65
+	}
+
+	regiment = {
+		name= "2nd Regiment of Infantry"
+		type = infantry
+		home = 58
+	}
+
+	regiment = {
+		name= "3rd Regiment of Infantry"
+		type = infantry
+		home = 64
+	}
+
+	regiment = {
+		name= "1st Regiment of Artillery"
+		type = artillery
+		home = 56
+	}
+
+	regiment = {
+         	name= "2nd Regiment of Artillery"
+		type = artillery
+		home = 46
+	}
+
+	regiment = {
+		name= "4th Regiment of Infantry"
+		type = infantry
+		home = 57
+	}
+
+	regiment = {
+		name= "1st Dragoons"
+		type = dragoon
+		home = 62
+	}
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 80
+	}
+	regiment = {
+		name= "1st Cavalry"
+		type = cavalry
+		home = 73
+	}
+}
+
+navy = {
+	name = "1st Squadron"
+	location = 65
+	ship = {
+		name= "Liberte"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fleur de Lis"
+		type = manowar
+	}
+
+	ship = {
+		name= "Fraternite"
+		type = manowar
+	}
+
+	ship = {
+		name= "Barbot"
+		type = frigate
+	}
+
+	ship = {
+		name= "Dubois"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "Guillaume le Conquerant"
+		type = manowar
+	}
+
+	ship = {
+		name= "Duc d'Anjou"
+		type = frigate
+	}
+
+
+	ship = {
+		name= "Egalite"
+		type = frigate
+	}
+
+	ship = {
+		name= "Quebec"
+		type = frigate
+	}
+
+}
+
+

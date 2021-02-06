@@ -1,0 +1,6 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = AUS
+trade_goods = timber
+life_rating = 35

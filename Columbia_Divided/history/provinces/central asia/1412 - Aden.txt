@@ -1,0 +1,11 @@
+owner = TUR
+controller = TUR
+add_core = TURs
+add_core = YEM
+trade_goods = fish
+life_rating = 35
+1861.1.1 = {
+	owner = ENG
+	controller = ENG
+	colonial = 2
+}

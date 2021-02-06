@@ -1,0 +1,7 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = SPA
+trade_goods = wool
+life_rating = 35
+colonial = 2

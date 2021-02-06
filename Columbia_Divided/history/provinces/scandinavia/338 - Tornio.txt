@@ -1,0 +1,8 @@
+owner = KAM
+controller = KAM
+add_core = SCA
+add_core = FIN
+add_core = SWE
+add_core = KAM
+trade_goods = iron
+life_rating = 35

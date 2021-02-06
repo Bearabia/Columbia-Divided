@@ -1,0 +1,31 @@
+leader = {
+	name = "Samuel Hostenza"
+	type = land
+	date="1836.1.1"
+	personality = cautious
+	background = school_of_defense
+}
+
+
+army = {
+	name = "Army of Alleati"
+	location = 133
+	regiment = {
+		name= "Alleatii Cavalry"
+		type = cavalry
+		home = 133
+	}
+
+	regiment = {
+		name= "Guarda"
+		type = guard
+		home = 132
+	}
+	
+	regiment = {
+		name = "Canones"
+		type = artillery
+		home = 137
+	}
+	
+}

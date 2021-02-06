@@ -1,0 +1,27 @@
+political_decisions = {
+
+move_capital_to_constantinople = {
+		picture = declare_republic_of_neuchatel
+		alert = no
+		potential = {
+			tag = GRE
+			owns = 860
+			NOT = { capital = 860}
+			capital = 834
+		}	
+		
+		allow = {
+			NOT = { capital = 860 }
+			state_n_government = 1
+            		war = no
+		}
+		
+		effect = {
+			capital = 860
+			prestige = 30
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}

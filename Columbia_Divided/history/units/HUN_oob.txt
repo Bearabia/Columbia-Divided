@@ -1,0 +1,114 @@
+leader = {
+	name = "Jozsef Balog"
+	date = 1805.1.1
+	type = land
+	personality = au_fait
+	background = elderly
+	prestige = 0.3
+}
+
+leader = {
+	name = "Marko Horvat"
+	date = 1836.1.1
+	type = land
+	personality = active_p
+	background = aristocrat
+}
+
+leader = {
+	name = "Andras Antall"
+	date = 1824.1.1
+	type = land
+	personality = competent
+	background = aristocrat
+	prestige = 0.1
+}
+
+#Army
+
+army = {
+	name = "II. Armee"
+	location = 641
+	regiment = {
+		name= "1.4. Infanteriedivision"
+		type = infantry
+		home = 612
+	}
+
+	regiment = {
+		name= "2.4. Infanteriedivision"
+		type = infantry
+		home = 629
+	}
+
+	regiment = {
+		name= "3.4. Infanteriedivision"
+		type = infantry
+		home = 641
+	}
+
+	regiment = {
+		name= "1.5. Infanteriedivision"
+		type = infantry
+		home = 614
+	}
+
+	regiment = {
+		name= "2.5. Infanteriedivision"
+		type = infantry
+		home = 649
+	}
+
+	regiment = {
+		name= "3.5. Infanteriedivision"
+		type = infantry
+		home = 640
+	}
+}
+
+army = {
+	name = "I. Armee"
+	location = 640
+	regiment = {
+		name= "1.2. Kavalleriedivision"
+		type = cuirassier
+		home = 622
+	}
+
+	regiment = {
+		name= "2.2. Kavalleriedivision"
+		type = cuirassier
+		home = 641
+	}
+
+	regiment = {
+		name= "3.2. Kavalleriedivision"
+		type = cuirassier
+		home = 626
+	}
+
+	regiment = {
+		name= "1.1. Infanteriedivision"
+		type = infantry
+		home = 613
+	}
+
+	regiment = {
+		name= "2.1. Infanteriedivision"
+		type = artillery
+		home = 644
+	}
+
+	regiment = {
+		name= "3.1. Infanteriedivision"
+		type = artillery
+		home = 625
+	}
+
+	regiment = {
+		name= "1.2. Infanteriedivision"
+		type = artillery
+		home = 616
+	}
+}
+

@@ -1,0 +1,10 @@
+owner = KAM
+controller = KAM
+add_core = KAM
+add_core = SCA
+add_core = HOL
+add_core = PRU
+trade_goods = grain
+life_rating = 40
+
+1861.1.1 = { railroad = 3 }

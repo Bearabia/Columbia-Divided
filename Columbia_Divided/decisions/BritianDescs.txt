@@ -1,0 +1,41 @@
+political_decisions = {
+        attack_ireland = {
+        potential = {
+            tag = ENG
+	NOT = { has_country_flag = claimed_ireland }
+        }
+        allow = {
+            nationalism_n_imperialism = 1
+        }
+        effect = {
+             254 = { add_core = ENG } # Belfast
+
+                    # some early claims we can roll with for future british lebensraum
+                   255 = { add_core = ENG }
+                    256 = { add_core = ENG }
+                   257 = { add_core = ENG }
+                    258 = { add_core = ENG }
+                    259 = { add_core = ENG }
+                    260 = { add_core = ENG }
+                    261 = { add_core = ENG }
+                    262 = { add_core = ENG }
+                    263 = { add_core = ENG }
+                    264 = { add_core = ENG }
+                    265 = { add_core = ENG }
+		set_country_flag = claimed_ireland
+		  casus_belli = {
+                target = IRE
+                type = conquest
+                months = 10000
+                }
+            }
+          
+           
+        
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
+	

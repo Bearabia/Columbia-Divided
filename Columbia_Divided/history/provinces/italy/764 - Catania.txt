@@ -1,0 +1,10 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+trade_goods = sulphur
+life_rating = 35
+1861.1.1 = {
+	controller = ITA
+	owner = ITA
+	add_core = ITA
+}

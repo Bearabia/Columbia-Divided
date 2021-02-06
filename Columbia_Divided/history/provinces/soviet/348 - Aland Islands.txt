@@ -1,0 +1,9 @@
+owner = KAM
+controller = KAM
+add_core = KAM
+add_core = SCA
+add_core = FIN
+add_core = SWE
+trade_goods = fish
+life_rating = 35
+fort = 1

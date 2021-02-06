@@ -1,0 +1,161 @@
+is_greater_power = yes
+            		prestige = 50
+           		NNL = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							
+						}
+					}
+				}
+			}
+		
+           		QUE = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							
+						}
+					}
+				}
+			}
+			VIR = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							
+						}
+					}
+				}
+			}
+			TEX = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							
+						}
+					}
+				}
+			}	
+			LOU = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							
+						}
+					}
+				}
+			}
+			BLU = {
+				OR = {
+					AND = {
+						exists = yes
+						OR = {
+							part_of_sphere = no
+							in_sphere = THIS
+							sphere_owner = { is_sphere_leader_of = THIS }
+						}
+					}
+					all_core = {
+						OR = {
+							owned_by = THIS
+							owner = { in_sphere = THIS }
+							
+						}
+					}
+				}
+			}
+
+
+any_country = {
+				limit = {
+					NOT = { is_culture_group = columbian }
+					in_sphere = THIS
+					war = no
+					any_owned_province = {
+						OR = {
+							is_core = NNL
+							is_core = QUE
+							is_core = VIR		
+							is_core = BLU
+							is_core = TEX
+							is_core = LOU
+						}
+					}
+				}
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = NNL
+							is_core = QUE
+							is_core = VIR		
+							is_core = BLU
+							is_core = TEX
+							is_core = LOU
+						}
+					}
+					secede_province = THIS
+				}
+			}
+			any_country = {
+				limit = {
+					war = no
+					is_culture_group = columbian
+					OR = {
+						in_sphere = THIS
+						sphere_owner = { is_sphere_leader_of = THIS }
+						relation = { who = THIS value = 50 }
+					}
+				}
+				country_event = 11101
+			}

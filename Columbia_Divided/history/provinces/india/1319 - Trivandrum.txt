@@ -1,0 +1,5 @@
+owner = KAM
+controller = KAM
+add_core = HND
+trade_goods = fruit
+life_rating = 32

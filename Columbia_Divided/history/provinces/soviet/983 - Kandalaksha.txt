@@ -1,0 +1,6 @@
+owner = KAM
+controller = KAM
+add_core = KAM
+add_core = SCA
+trade_goods = sulphur
+life_rating = 35

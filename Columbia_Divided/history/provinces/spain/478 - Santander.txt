@@ -1,0 +1,7 @@
+owner = HAB
+controller = HAB
+add_core = HAB
+add_core = SPA
+trade_goods = fish
+life_rating = 35
+1861.1.1 = { railroad = 3 }

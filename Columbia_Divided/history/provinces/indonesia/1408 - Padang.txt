@@ -1,0 +1,7 @@
+owner = JSA
+controller = JSA
+add_core = ATJ
+add_core = JSA
+trade_goods = tobacco
+life_rating = 30
+colonial = 0

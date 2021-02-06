@@ -1,0 +1,114 @@
+
+
+leader = {
+	name = "Winfield Scott"
+	date = 1836.1.1
+	type = land
+	personality = steadfast
+	background = school_of_firepower
+	prestige = 0.3
+}
+
+leader = {
+	name = "Zachary Taylor"
+	date = 1836.1.1
+	type = land
+	personality = intuitive
+	background = school_of_offense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Thomas Jesup"
+	date = 1836.1.1
+	type = land
+	personality = meticulous
+	background = toady
+	prestige = 0.1
+}
+
+
+
+leader = {
+	name = "Matthew C. Perry"
+	date = 1836.1.1
+	type = sea
+	personality = openminded
+	background = war_college
+	prestige = 0.1
+}
+
+army = {
+	name = "Virginian Armed Forces"
+	location = 205
+	regiment = {
+		name= "1st Infantry Regiment"
+		type = infantry
+		home = 215
+	}
+
+	regiment = {
+		name= "2nd Infantry Regiment"
+		type = infantry
+		home = 190
+	}
+
+	regiment = {
+		name= "3rd Infantry Regiment"
+		type = infantry
+		home = 205
+	}
+	
+	regiment = {
+		name= "1st Dragoon Regiment"
+		type = dragoon
+		home = 205
+	}
+	regiment = {
+		name= "2nd Dragoon Regiment"
+		type = dragoon
+		home = 2555
+	}
+	regiment = {
+		name= "1st Artillery Regiment"
+		type = artillery
+		home = 211
+	}
+
+}
+
+
+
+
+
+
+navy = {
+	name = "1st Squadron"
+	location = 210
+	ship = {
+		name= "Independance"
+		type = frigate
+	}
+
+	ship = {
+		name= "Brandywine"
+		type = frigate
+	}
+
+	ship = {
+		name= "Constitution"
+		type = frigate
+	}
+
+	ship = {
+		name= "Potomac"
+		type = frigate
+	}
+
+	ship = {
+		name= "'James McKay' Flotilla"
+		type = clipper_transport
+	}
+
+}
+
